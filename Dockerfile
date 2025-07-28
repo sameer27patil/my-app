@@ -1,2 +1,2 @@
 FROM tomcat:8.0.20-jre8
-COPY target/spring3-mvc-maven-xml-hello-world-1.4.war  /usr/local/tomcat/webapps/spring3.war
+COPY target/my-app-1.0-SNAPSHOT.jar  /usr/local/tomcat/webapps/spring3.war
